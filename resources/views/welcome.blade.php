@@ -1,36 +1,7 @@
 @extends('layouts.layout')
 @section('content')
 <body>
-  <!-- Navbar Menu  ---->
-  <section id="nav-bar">
-    <nav class="navbar navbar-expand-lg navbar-light">
-       <a class="navbar-brand" href="#">
-         <img src="images/logo_creazione.png" alt="">
-       </a>
-       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-         <i class="fa fa-bars"></i>
-       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#top">Creazione<span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#services">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#about">A propos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#testimonials">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </section>
+ 
   <!--- Banner Hero section ------->
   <section class="banner">
     <div class="container">
@@ -99,7 +70,7 @@
           </p>
         </div>
       </div>
-      <button type="button" class="btn btn-primary"  name="button">Find Out More</button>
+      {{-- <button type="button" class="btn btn-primary"  name="button">Find Out More</button> --}}
     </div>
   </section>
   <!--- About Section ------>
@@ -133,17 +104,33 @@
   <!---  Testimonials Section  --->
   <section id="testimonials">
     <div class="container">
-      <h3 class="title text-center">Portfolio</h3>
-      <div class="row offset-1">
-        <div class="col-md-5 testimonials">
+      <h3 class="title text-center">Notre équipe</h3>
+      <div class="row ">
+        <div class="col-md-3 testimonials">
           <p class="feedback">"Lorem ipsum dolor sit amet, consectetur adipiscing elit,
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
           </p>
           <img src="images/testimonials/testimonial-1.jpg"  alt="">
-          <p class="user-details"><b>James</b><br>CEO at DIN</p>
+          <p class="user-details"><b>Camille Kalao</b><br>CEO</p>
         </div>
-        <div class="col-md-5 testimonials">
+        <div class="col-md-3 testimonials">
+          <p class="feedback">"Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+          </p>
+          <img src="images/testimonials/testimonial-1.jpg"  alt="">
+          <p class="user-details"><b>James</b><br></p>
+        </div>
+        <div class="col-md-3 testimonials">
+          <p class="feedback">"Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+          </p>
+          <img src="images/testimonials/testimonial-3.jpg"  alt="">
+          <p class="user-details"><b>William</b><br>Co-founder at ArtSpace</p>
+        </div>
+        <div class="col-md-3 testimonials">
           <p class="feedback">"Lorem ipsum dolor sit amet, consectetur adipiscing elit,
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."

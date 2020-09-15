@@ -16,29 +16,29 @@
                 <p><i class="fa fa-envelope-o"></i>contact@creazionestudio.com</p>
             </div>
             <div class="col-md-4 footer-box">
-                <p><b>Newsletter</b></p>
+                {{-- <p><b>Newsletter</b></p>
                 <input type="email"class="form-control" placeholder="Your Email">
-                <button type="button"class="btn btn-primary" name="button">Subscribe</button>
+                <button type="button"class="btn btn-primary" name="button">Subscribe</button> --}}
 
                 <div id="social">
-                    <p>Find Us On Social Media</p>
+                    <p>Retrouvez nous sur les réseaux sociaux</p>
                        <div class="social-icons">
                           <a href="#" class="svg-icons"><img src="svg/facebook-logo.svg" alt=""></a>
                           <a href="#" class="svg-icons"><img src="svg/instagram_.svg" alt=""></a>
-                          <a href="#" class="svg-icons"><img src="svg/twitter-logo.svg" alt=""></a>
+                          {{-- <a href="#" class="svg-icons"><img src="svg/twitter-logo.svg" alt=""></a> --}}
                           <a href="#" class="svg-icons"><img src="svg/whatsapp.svg" alt=""></a>
                        </div>
                 </div>
             </div>
             <div class="col-md-6 ">
-              <p class="copyright">Copyright © 2020. All rights reserved | Designed by  <a href="https://github.com/Shado2107">Sh@do</a></p>
+              <p class="copyright">Copyright © 2020| by  <a href="https://github.com/Shado2107">Creazione Studio</a></p>
             </div>
             <div class="col-md-6 text-right">
-            <p class="copyright">
+            {{-- <p class="copyright">
               <a href="#">Privacy Policy</a>
               <a href="#">Cookie Policy</a>
               <a href="#">Terms & Conditions</a>
-            </p>
+            </p> --}}
             </div>
           </div>
           <br>
@@ -49,5 +49,11 @@
     <script>
 	    var scroll = new SmoothScroll('a[href*="#"]');
     </script>
+    <script>
+      $(document).ready(function() {
+        $('a.custom-selector').bootstrapGallery();
+      });
+      </script>
+      
   </body>
 </html>
