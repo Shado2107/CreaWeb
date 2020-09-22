@@ -1,53 +1,75 @@
 @extends('layouts.layout')
 @section('content')
- 
 
-<section id="services">
+<!DOCTYPE html>
+<html lang="en">
+    <head>
 
-  <link rel="stylesheet" href=" {{asset('bootstrap-gallery.css')}} ">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="../bootstrap-gallery.css">
 
+	
+	</head>
+	
+	<body>
+		<div class="container">
 
-<div class="container">
+			<h1>portfolio</h1>
 
+			<h2></h2>
+			
+			<div class="row">
+				<div class="col-xs-6 col-sm-3">
+					<a href="img/1.png" class="thumbnail">
+						<img src="img/1.png" alt="creazione studio" />
+					</a>
+				</div>
 
-  <h2>Simple galerie</h2>
-  
-  <div class="row">
-    <div class="col-xs-6 col-sm-3">
-      <a href="img/autumn-thumb.jpg" class="thumbnail">
-        <img src="img/autumn-thumb.jpg" alt="Small picture : Autumn" />
-      </a>
-    </div>
-    
-    <div class="col-xs-6 col-sm-3">
-      <a href="img/landscape.jpg" class="thumbnail">
-        <img src="img/landscape-thumb.jpg" alt="Landscape" />
-      </a>
-    </div>
-    
-    <div class="col-xs-6 col-sm-3">
-      <a href="img/london.jpg" class="thumbnail" >
-        <img src="img/london-thumb.jpg" alt="London" />
-      </a>
-    </div>
-    
-    <div class="col-xs-6 col-sm-3">
-      <a href="img/sunrise.jpg" class="thumbnail">
-        <img src="img/sunrise-thumb.jpg" alt="Sunrise" />
-      </a>
-    </div>
-  </div>
-  
-</div>
+				<div class="col-xs-6 col-sm-3">
+					<a href="img/2.jpg" class="thumbnail">
+						<img src="img/2.jpg" alt="creazione studio" />
+					</a>
+				</div>
+				
+				<div class="col-xs-6 col-sm-3">
+					<a href="img/3.png" class="thumbnail">
+						<img src="img/3.png" alt="creazione studio" />
+					</a>
+				</div>
+				
+				<div class="col-xs-6 col-sm-3">
+					<a href="img/4.jpg" class="thumbnail" >
+						<img src="img/4.jpg" alt="creazione studio" />
+					</a>
+				</div>
+				
+				<div class="col-xs-6 col-sm-3">
+					<a href="img/5.png" class="thumbnail">
+						<img src="img/5.png" alt="creazione studio" />
+					</a>
+				</div>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script src="{{ asset('bootstrap-gallery.js') }}"></script>
+				<div class="col-xs-6 col-sm-3">
+					<a href="img/6.png" class="thumbnail">
+						<img src="img/6.png" alt="creazione studio" />
+					</a>
+				</div>
 
+			</div>
+			
+			
+		</div>
 
-</section>
-
-
-
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="../bootstrap-gallery.js"></script>
+		
+		<script>
+		$(document).ready(function() {
+			$('a.custom-selector').bootstrapGallery();
+		});
+		</script>
+	</body>
+</html>
 
 @endsection

@@ -12,12 +12,9 @@
         <div class="col-md-6 about">
           <p class="about-title">Creazione studio</p>
           <ul>
-            <li>Sint aliquam consequatur ex ex labore.</li>
-            <li>Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-            <li>Aspernatur consectetur omnis numquam quaerat.</li>
-            <li>Et vel ut quidem alias veritatis repudiandae ut fugit.</li>
-            <li>Fugit ut maxime incidunt accusantium totam repellendus eum error. </li>
-            <li>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+            <li>Adresse:</li>
+            <li>Téléphone: </li>
+            <li>Mail:</li>
           </ul>
           {{-- <p>CREAZIONE est un <strong>studio de création numérique et multimédia créé en 2018</strong> , dont le siège se 
               trouve à lomé, quartier adidoadin non loin de l'hôtel la concorde.
